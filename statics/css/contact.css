@@ -1,0 +1,70 @@
+body {
+    background-color: #E6E6FA; 
+    background-image: url('https://i.gifer.com/Erie.gif'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #4A148C; 
+}
+
+.navbar {
+    background-color: #6A1B9A;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #7B1FA2; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white; 
+}
+
+.contact-card {
+    background-color: rgba(245, 245, 255, 0.85); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h1 {
+    color: #4A148C; 
+}
+
+.contact-card p {
+    color: #333;
+}
+
+.contact-card a {
+    color: #7B1FA2; 
+}
+
+.contact-card a:hover {
+    color: #6A1B9A; 
+}
+
+.btn-secondary {
+    background-color: #7B1FA2; 
+    border-color: #7B1FA2;
+}
+
+.btn-secondary:hover {
+    background-color: #6A1B9A; 
+    border-color: #6A1B9A;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

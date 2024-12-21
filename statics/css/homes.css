@@ -1,0 +1,66 @@
+body {
+    background-color: #E6E6FA; 
+    background-image: url('https://i.pinimg.com/originals/81/33/33/8133333cfe4e2d38d606123a5fc59eb4.gif'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #4A148C; 
+}
+
+.navbar {
+    background-color: #6A1B9A; 
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #7B1FA2; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.profile-card {
+    background-color: #F5F5FF; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h1 {
+    color: #4A148C; 
+}
+
+.profile-card p {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #7B1FA2;
+    border-color: #7B1FA2;
+}
+
+.btn-primary:hover {
+    background-color: #6A1B9A; 
+    border-color: #6A1B9A;
+}
+
+.text-primary {
+    color: #7B1FA2; 
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

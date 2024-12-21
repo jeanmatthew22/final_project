@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1877f2, #4facfe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.wrapper {
+    background: #ffffff;
+    width: 500px; 
+    max-width: 90%; 
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+.wrapper h2 {
+    font-size: 2.2rem; 
+    color: #333333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.wrapper p {
+    color: #555555;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.form-control {
+    width: 80%;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 5px rgba(24, 119, 242, 0.3);
+}
+
+.help-block {
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 100%;
+    background: #1877f2;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #1558a1;
+    transform: scale(1.02); 
+}
+
+#password-toggle {
+    font-size: 0.9rem;
+    color: #1877f2;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #555555;
+    margin-top: 20px;
+}
+
+p a {
+    color: #1877f2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .wrapper h2 {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        padding: 12px;
+    }
+}
